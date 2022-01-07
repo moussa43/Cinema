@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bleu"
+    tools:context=".MovieDetail">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="170dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageView
+        android:id="@+id/movieImageView"
+        android:layout_width="153dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/cinema" />
+
+    <TextView
+        android:id="@+id/plotTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/titleTextView"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="163dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="SÉLECTIONNEZ UNE DATE"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/date1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/black"
+        android:text="10 DEC" />
+
+    <TextView
+        android:id="@+id/jour1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"
+        android:text="VEN" />
+
+    <TextView
+        android:id="@+id/date2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:text="11 DEC"/>
+
+    <TextView
+        android:id="@+id/jour2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/black"
+        android:text="SAM"/>
+
+    <TextView
+        android:id="@+id/date3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="@color/black"
+        android:text="12 DEC"/>
+
+    <TextView
+        android:id="@+id/jour3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"
+        android:text="LUN" />
+
+    <TextView
+        android:id="@+id/date4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="@color/black"
+        android:text="13 DEC"/>
+
+    <TextView
+        android:id="@+id/jour4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="250dp"
+        android:textColor="@color/black"
+        android:text="MAR"/>
+
+    <TextView
+        android:id="@+id/date5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/black"
+        android:text="14 DEC"/>
+
+    <TextView
+        android:id="@+id/jour5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="320dp"
+        android:textColor="@color/black"
+        android:text="MER"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="SÉLECTIONNEZ UNE HEURE"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/h1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="50dp"
+        android:text="11:00"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/h2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:text="13:00"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/h3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="320dp"
+        android:text="14:00"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/h4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        android:text="16:30"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/h5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="18:00"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/h6TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="320dp"
+        android:text="19:30"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/h7TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="50dp"
+        android:text="20:45"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/h8TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:text="21:35"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/h9TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="320dp"
+        android:text="23:00"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:backgroundTint="#0000FF"
+        android:text="Réserver" />
+</RelativeLayout>
